@@ -12,9 +12,6 @@ import './api/config';
 
 
 
-import Loadmore from 'vue-loadmore';
-Vue.component('loadmore', Loadmore);
-
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 Vue.config.productionTip = false;
